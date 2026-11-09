@@ -1,0 +1,6 @@
+{
+  "name": "CONECTA CELL SHOP - Catálogo de Peças e Telas para Celular",
+  "description": "Catálogo completo de telas, baterias, placas de carga e peças para smartphones com busca rápida, filtros e pedidos diretos no WhatsApp (11 99989-3780).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
