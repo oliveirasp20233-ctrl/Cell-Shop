@@ -1,4 +1,9 @@
-export const HERO_IMAGE = '/src/assets/images/conecta_hero_workshop_1793978783424.jpg';
+import heroImage from '../assets/images/conecta_hero_workshop_1793978783424.jpg';
+import displayImage from '../assets/images/cat_display_screens_1793978783447.jpg';
+import batteryImage from '../assets/images/cat_battery_power_1793978784019.jpg';
+import dockImage from '../assets/images/cat_charging_docks_1793978784250.jpg';
+
+export const HERO_IMAGE = heroImage;
 
 export interface CategoryInfo {
   name: string;
@@ -11,21 +16,21 @@ export interface CategoryInfo {
 export const CATEGORY_METADATA: Record<string, CategoryInfo> = {
   'Telas & Displays': {
     name: 'Telas & Displays',
-    image: '/src/assets/images/cat_display_screens_1793978783447.jpg',
+    image: displayImage,
     iconName: 'Smartphone',
     badge: '1.280+ modelos',
     shortDesc: 'Módulos frontais com e sem aro, Incell, OLED e JK com alta sensibilidade ao toque.'
   },
   'Baterias': {
     name: 'Baterias',
-    image: '/src/assets/images/cat_battery_power_1793978784019.jpg',
+    image: batteryImage,
     iconName: 'BatteryCharging',
     badge: 'Foxconn & Premium',
     shortDesc: 'Células de alta densidade e durabilidade calibrada com proteção contra superaquecimento.'
   },
   'Placas de Carga (Dock)': {
     name: 'Placas de Carga (Dock)',
-    image: '/src/assets/images/cat_charging_docks_1793978784250.jpg',
+    image: dockImage,
     iconName: 'Cpu',
     badge: 'Turbo Fast & Mic',
     shortDesc: 'Subplacas de conector Type-C e V8 com CI de carga rápida e microfones integrados.'
